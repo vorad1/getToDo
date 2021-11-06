@@ -24,7 +24,13 @@ function Users() {
             <span> {u.name} </span>
             <span>
               {" "}
-              <button classname={StyleSheet.getBtn} onClick={() => setUserId(u.id)}> get Posts </button>{" "}
+              <button
+                classname={StyleSheet.getBtn}
+                onClick={() => setUserId(u.id)}
+              >
+                {" "}
+                get Posts{" "}
+              </button>{" "}
             </span>
           </li>
         ))}
