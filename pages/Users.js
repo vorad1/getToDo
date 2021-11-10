@@ -24,7 +24,7 @@ function Users() {
           <span>
             {" "}
             <button
-              classname={StyleSheet.getBtn}
+              className={StyleSheet.getBtn}
               onClick={() => setUserId(u.id)}
             >
               {" "}
