@@ -18,23 +18,21 @@ function Users() {
 
   return (
     <div>
-      <ul>
-        {listOfUsers.map((u) => (
-          <li key={u.userId}>
-            <span> {u.name} </span>
-            <span>
+      {listOfUsers.map((u) => (
+        <p key={u.userId}>
+          <span> {u.name} </span>
+          <span>
+            {" "}
+            <button
+              classname={StyleSheet.getBtn}
+              onClick={() => setUserId(u.id)}
+            >
               {" "}
-              <button
-                classname={StyleSheet.getBtn}
-                onClick={() => setUserId(u.id)}
-              >
-                {" "}
-                get Posts{" "}
-              </button>{" "}
-            </span>
-          </li>
-        ))}
-      </ul>
+              Get List{" "}
+            </button>{" "}
+          </span>
+        </p>
+      ))}
     </div>
   );
 }

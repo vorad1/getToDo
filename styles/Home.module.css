@@ -23,6 +23,7 @@
   margin: 128px auto;
   border-radius: 10px;
   padding-bottom: 32px;
+  
 }
 
 .todoInput {
@@ -52,6 +53,12 @@
 }
 
 .todoPosts{
-  text-align: left;
   color: #f4a261;
+  padding: 14px 32px 14px 16px;
+  border-radius: 4px 0 0 4px;
+  border: 2px solid #5d0cff;
+  outline: none;
+  width: 360px;
+  background: transparent;
+  align-self: center;
 }

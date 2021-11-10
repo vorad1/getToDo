@@ -16,11 +16,9 @@ function Posts(props) {
 
   return (
     <div>
-      <ul>
         {listOfPost.map((post) => (
           <li key={post.id}>{post.title}</li>
         ))}
-      </ul>
     </div>
   );
 }
